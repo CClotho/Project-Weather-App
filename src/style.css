@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid burlywood;
+    gap: 5px;
+    font-size: large;
+}
+span {
+    display: block;
+}
+
+img {
+    max-width: 100%;;
+}
+
+.imgWrapper {
+    width: 64px;
+    height: 64px;
+}

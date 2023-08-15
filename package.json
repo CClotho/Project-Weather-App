@@ -1,0 +1,29 @@
+{
+  "name": "project-weather-app",
+  "version": "1.0.0",
+  "description": "A simple weather forecast website where you can check the weather condition of a place.",
+  "main": "weather.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CClotho/Project-Weather-App.git"
+  },
+  "author": "Cclotho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CClotho/Project-Weather-App/issues"
+  },
+  "homepage": "https://github.com/CClotho/Project-Weather-App#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0"
+  }
+}
